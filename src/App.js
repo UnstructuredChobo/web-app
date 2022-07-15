@@ -1,12 +1,16 @@
 
 import './App.css';
 import Sidebar from './Sidebar.js';
+import Footbar from './Footbar.js';
+
 function App() {
   return (
     <div className="App">
       <Sidebar>
       </Sidebar>
-      <h1> dasdas</h1>
+
+      <Footbar>
+      </Footbar>
     </div>
   );
 }
